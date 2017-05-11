@@ -18,7 +18,7 @@ body {
 	padding: 5px;
 	height: 250px;
 	background: beige;
-	background-image: url("code.jpg");
+	background-image: url("../images/code.jpg");
 	color: white;
 	text-align: center;
 }
