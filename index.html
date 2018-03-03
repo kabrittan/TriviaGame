@@ -15,44 +15,59 @@
 		</div>
 			<form  id="form1" action=" ">
 				<p>1.  Which is the best description of a variable?</p>
-				<input type="radio" name="variable" value="0" />Identifies a portion of a string.<br />
-				<input type="radio" name="variable" value="0" />Used to store multiple values in a single variable.<br />
-				<input type="radio" name="variable" value="0" />A method to join strings.<br />
-				<input type="radio" name="variable" value="20" />Allows you to store information so it can be reused throughout the program<br />
-				<input type="radio" name="variable" value="0" />Allows you to make a decision based on a condition.<br />
+				<select id="variable">
+  					<option value="0">Choose One</option>
+  					<option value="0">Identifies a portion of a string.</option>
+  					<option value="0">Used to store multiple values in a single variable.</option>
+  					<option value="0">A method to join strings.</option>
+  					<option value="20">Allows you to store information so it can be reused throughout the program</option>
+  					<option value="0">Allows you to make a decision based on a condition.</option>
+				</select>
 
 				<p>2.  Which is the best description of the substring method?</p>
-				<input type="radio" name="sub" value="20" />Identifies a portion of a string.<br />
-				<input type="radio" name="sub" value="0" />Used to store multiple values in a single variable.<br />
-				<input type="radio" name="sub" value="0" />A method to join strings.<br />
-				<input type="radio" name="sub" value="0" />Allows you to store information so it can be reused throughout the program<br />
-				<input type="radio" name="sub" value="0" />Allows you to make a decision based on a condition.<br />
+				<select id="sub">
+  					<option value="0">Choose One</option>
+  					<option value="20">Identifies a portion of a string.</option>
+  					<option value="0">Used to store multiple values in a single variable.</option>
+  					<option value="0">A method to join strings.</option>
+  					<option value="0">Allows you to store information so it can be reused throughout the program</option>
+  					<option value="0">Allows you to make a decision based on a condition.</option>
+				</select>
 
 				<p>3.  Which is the best description of an array?</p>
-				<input type="radio" name="arr" value="0" />Identifies a portion of a string.<br />
-				<input type="radio" name="arr" value="20" />Used to store multiple values in a single variable.<br />
-				<input type="radio" name="arr" value="0" />A method to join strings.<br />
-				<input type="radio" name="arr" value="0" />Allows you to store information so it can be reused throughout the program<br />
-				<input type="radio" name="arr" value="0" />Allows you to make a decision based on a condition.<br />
-
+				<select id="arr">
+  					<option value="0">Choose One</option>
+  					<option value="0">Identifies a portion of a string.</option>
+  					<option value="20">Used to store multiple values in a single variable.</option>
+  					<option value="0">A method to join strings.</option>
+  					<option value="0">Allows you to store information so it can be reused throughout the program</option>
+  					<option value="0">Allows you to make a decision based on a condition.</option>
+				</select>
+				
 				<p>4.  Which is the best description of concatenation?</p>
-				<input type="radio" name="con" value="0" />Identifies a portion of a string.<br />
-				<input type="radio" name="con" value="0" />Used to store multiple values in a single variable.<br />
-				<input type="radio" name="con" value="20" />A method to join strings.<br />
-				<input type="radio" name="con" value="0" />Allows you to store information so it can be reused throughout the program<br />
-				<input type="radio" name="con" value="0" />Allows you to make a decision based on a condition.<br />
-
+				<select id="con">
+  					<option value="0">Choose One</option>
+  					<option value="0">Identifies a portion of a string.</option>
+  					<option value="0">Used to store multiple values in a single variable.</option>
+  					<option value="20">A method to join strings.</option>
+  					<option value="0">Allows you to store information so it can be reused throughout the program</option>
+  					<option value="0">Allows you to make a decision based on a condition.</option>
+				</select>
+				
 				<p>5.  Which is the best description of an if statement?</p>
-				<input type="radio" name="ifstate" value="0" />Identifies a portion of a string.<br />
-				<input type="radio" name="ifstate" value="0" />Used to store multiple values in a single variable.<br />
-				<input type="radio" name="ifstate" value="0" />A method to join strings.<br />
-				<input type="radio" name="ifstate" value="0" />Allows you to store information so it can be reused throughout the program<br />
-				<input type="radio" name="ifstate" value="20" />Allows you to make a decision based on a condition.<br />
-
-				<input type="submit" value="Submit">
-			</form>
-			<p>Your grade is: <span id="grade">__</span></p>
-			<p id="grade2"></p>
+				<select id="ifstate">
+  					<option value="0">Choose One</option>
+  					<option value="0">Identifies a portion of a string.</option>
+  					<option value="0">Used to store multiple values in a single variable.</option>
+  					<option value="0">A method to join strings.</option>
+  					<option value="0">Allows you to store information so it can be reused throughout the program</option>
+  					<option value="20">Allows you to make a decision based on a condition.</option>
+				</select>
+				
+				<p><input type="submit" value="Submit"></p>
+				</form>
+				<p>Your grade is: <span id="grade">__</span></p>
+				<p id="grade2"></p>
 		</div>
 		
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
